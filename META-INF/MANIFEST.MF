@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FirstTest
+Bundle-SymbolicName: FirstTest
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: FirstTest.jar,
+ Mobile testing/drivers/selenium-server-standalone-3.141.59.jar,
+ Mobile testing/drivers/testng-6.14.3.jar,
+ cucumber_jars/cues/cucumber-core-1.2.5.jar,
+ cucumber_jars/cues/gherkin-2.12.2.jar,
+ cucumber_jars/cues/cucumber-java-1.2.5.jar,
+ cucumber_jars/cues/cucumber-jvm-deps-1.0.5.jar,
+ cucumber_jars/cues/junit-4.13.jar,
+ cucumber_jars/cues/cucumber-junit-1.2.5.jar,
+ cucumber_jars/cues/kotlin-stdlib-jdk8-1.3.72.jar,
+ cucumber_jars/cues/mockito-all-1.10.19.jar
+Export-Package: .,
+ Drivers,
+ Features,
+ Runners,
+ Tests
