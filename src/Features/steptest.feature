@@ -26,5 +26,12 @@ Feature: verify step defs steps
     When Step3
     Then Step4
     
+    
+    Scenario: Title of your scenario
+    Given Step1
+    And  Step2
+    When Step3
+    Then Step4
+    
 
   
